@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vtiger.ContactsTests.CreateContactWithOrganizationTest">
+      <class name="vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest">
         <methods>
+          <include name="createMultipleOrgTest" invocation-numbers="0"/>
           <include name="acConfig"/>
           <include name="asConfig"/>
           <include name="bsConfig"/>
           <include name="bmConfig"/>
-          <include name="createContactWithOrgTest"/>
           <include name="amConfig"/>
           <include name="bcConfig"/>
         </methods>
-      </class> <!-- vtiger.ContactsTests.CreateContactWithOrganizationTest -->
+      </class> <!-- vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
